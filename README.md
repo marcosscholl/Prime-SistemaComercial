@@ -68,8 +68,8 @@ após instalada a frente do BD, o seguinte Usuário deve ser Criado:
 **Usuário:** root
 
 **Senha:** root
-[[https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/img/image2.png|alt=image2]]
-![](https://raw.githubusercontent.com/marcosscholl/Prime-SistemaComercial/master/media/image2.png){width="2.6875in"
+[[https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image2.png|alt=image2]]
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image005.jpg?raw=true){width="2.6875in"
 height="2.968284120734908in"}![](https://raw.githubusercontent.com/marcosscholl/Prime-SistemaComercial/master/media/image3.png){width="2.6831364829396325in"
 height="2.963464566929134in"}
 
