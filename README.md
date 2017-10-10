@@ -69,7 +69,8 @@ após instalada a frente do BD, o seguinte Usuário deve ser Criado:
 
 **Senha:** root
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image005.jpg?raw=true?raw=true)![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image3.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image003.jpg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image005.png?raw=true)
 
 ***Visão do Sistema***
 ======================
@@ -90,7 +91,7 @@ usuário para que o mesmo tenha o devido acesso ao sistema, lembrando que
 somente o gerente, ou a quem lhe caber o recurso terão acesso total ao
 sistema, ficando aos demais algumas áreas com acesso restrito.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image4.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image007.png?raw=true)
 
 Caso os dados informados para login tenham sido corretos, o usuário
 receberá a mensagem mostrada na imagem abaixo, caso contrário, o mesmo
@@ -98,12 +99,12 @@ terá até 3 tentativas para corrigir seus dados, passadas as tentativas o
 programa se fechará automaticamente devendo ele reabri-lo para reiniciar
 uma nova tentativa.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image5.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image009.png?raw=true)
 
 Uma vez que ele realizar o login com sucesso ele será apresentado à tela
 do Menu Geral.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image6.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image011.png?raw=true)
 
 ### 
 
@@ -191,20 +192,20 @@ O Menu Geral é dividido nos seguintes menus e sub-menus:
 
 *Imagens de Atalho e seus Significados:*
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\users4\_add444.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image7.png?raw=true)**= Cadastrar um Novo Cliente;**
+![C:\\Users\\Scholl\\Desktop\\imagens\\users4\_add444.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image013.png?raw=true)**= Cadastrar um Novo Cliente;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\produtos\_add.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image8.png?raw=true) **= Cadastrar um novo Produto;**
+![C:\\Users\\Scholl\\Desktop\\imagens\\produtos\_add.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image015.png?raw=true) **= Cadastrar um novo Produto;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\Orcamento\_Red\_.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image9.png?raw=true) **= Realizar Orçamento;**
+![C:\\Users\\Scholl\\Desktop\\imagens\\Orcamento\_Red\_.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image017.png?raw=true) **= Realizar Orçamento;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\Venda\_2.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image10.png?raw=true) **= Iniciar Frente de Caixa;**
+![C:\\Users\\Scholl\\Desktop\\imagens\\Venda\_2.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image019.png?raw=true) **= Iniciar Frente de Caixa;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\fornecedor\_12\_.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image11.png?raw=true) **= Consultar / Cadastrar um
+![C:\\Users\\Scholl\\Desktop\\imagens\\fornecedor\_12\_.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image021.png?raw=true) **= Consultar / Cadastrar um
 Fornecedor;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\calculadora\_12.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image12.png?raw=true) **= Abrir Calculadora;**
+![C:\\Users\\Scholl\\Desktop\\imagens\\calculadora\_12.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image023.png?raw=true) **= Abrir Calculadora;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\exit\_3.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image13.png?raw=true)**= Sair.**
+![C:\\Users\\Scholl\\Desktop\\imagens\\exit\_3.png?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image025.png?raw=true)**= Sair.**
 
  *MENU CADASTRO:*
 -----------------
@@ -216,7 +217,7 @@ exibi-los, e é a tabela responsável por fazer a atualização cadastral
 junto à base de dados. Ao iniciar a tabela clientes a seguinte tela é
 exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image14.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image027.png?raw=true)
 
 Na tabela superior constam todos os clientes cadastrados, bem como todos
 os seus dados, na tabela inferior constam os endereços de um cliente
@@ -225,12 +226,12 @@ endereço, como também pode não possuir um endereço cadastrado no
 sistema, para exibir o endereço de um cliente este deve ser selecionado,
 como mostrado na imagem abaixo:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image15.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image029.png?raw=true)
 
 Para inserir um Cliente, basta clicar no botão “Inserir Cliente” abaixo
 da tabela de clientes já cadastrados, que a seguinte tela será exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image16.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image031.png?raw=true)
 Então somente é necessário informar os dados deste novo cliente e clicar
 no botão “Confirma” que este cliente será armazenado no banco de dados.
 Sendo necessário informar um ou mais endereços, é somente necessário
@@ -245,7 +246,7 @@ abaixo da tabela de clientes), que será aberta uma janela com os dados
 atuais do cliente preenchidos, devendo assim (vide imagem abaixo),
 somente alterar o necessário e clicar em “Confirma”.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image17.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image033.png?raw=true)
 
 Para EXCLUIR um cliente cadastrado é necessário selecionar o cliente,
 apagar seus endereços cadastrados selecionando os endereços e
@@ -268,12 +269,12 @@ dos fornecedores junto a base de dados, as tabelas são separas em duas
 guias diferentes. Ao iniciar o cadastramento de fornecedores, a seguinte
 tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image18.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image035.png?raw=true)
 
 Para Inserir um novo fornecedor, somente é necessário clicar no botão
 “Inserir”, que a seguinte tela será aberta:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image19.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image037.png?raw=true)
 
 Assim que a tela for aberta, é só preencher toda a tabela com as
 informações necessárias, e clicar em “Salvar” que este novo fornecedor
@@ -286,11 +287,11 @@ busca pelo nome da rua, bairro, cidade.
 
 Janela para buscar o CEP:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image20.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image039.png?raw=true)
 
 Buscando um CEP em uma rua chamada “São Pedro”:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image21.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image041.png?raw=true)
 
 O sistema busca a palavra “são pedro” na base de dados e exibe ao
 usuário, qualquer registro que contenha a palavra, independente de ser a
@@ -302,7 +303,7 @@ Após importar um registro de CEP para um fornecedor, o mesmo já será
 automaticamente preenchido, como mostra a imagem abaixo, de um CEP
 importado:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image22.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image043.png?raw=true)
 
 Para alterar um fornecedor já cadastrado, é só selecionar o fornecedor
 desejado e clicar na guia (ou aba) “Incluindo/Alterando um Fornecedor”,
@@ -312,24 +313,24 @@ que for preciso e salvar pressionando o botão “Salvar”.
 Ao selecionar um fornecedor e clicar para alterá-lo a seguinte janela
 será exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image23.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image045.png?raw=true)
 
 ### *- Cadastro de Contas Bancárias:*
 
 É a tabela responsável por cadastrar todas as contas bancárias da
 empresa,assim que aberta, a seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image24.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image047.png?raw=true)
 
 Para Inserir uma nova Conta, é só pressionar o botão “Novo” que a tela
 para inserir será aberta, que é a seguinte:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image25.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image049.png?raw=true)
 
 Após clicar em “Novo”, é só digitar os dados nos campos abaixo que
 automaticamente eles serão preenchidos na base dados, exemplo:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image26.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image051.png?raw=true)
 
 Enquanto as informações são digitadas elas são automaticamente
 preenchidas no ultimo registro.
@@ -338,7 +339,7 @@ Para editar um banco já cadastrado é só selecionar o banco desejado e
 alterar as informações nos campos abaixo (Nome do Banco, Agencia do
 Banco, Conta do Banco, etc.)
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image27.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image053.png?raw=true)
 
 ATENÇÃO: Para todos os procedimentos deve-se salvar antes de fechar a
 janela para os dados não serem perdidos.
@@ -349,7 +350,7 @@ janela para os dados não serem perdidos.
 nos produtos cadastrados no banco de dados, assim que aberta, a seguinte
 tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image28.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image055.png?raw=true)
 
 Para Inserir uma nova unidade, clique em inserir e informe a descrição
 desta nova unidade no campo “Descrição Unidade”, e clique em “Salvar”.
@@ -366,19 +367,19 @@ os dados do estoque, pois é esta tabela que define o estoque de um
 produto no banco de dados da empresa. É basicamente a tabela principal
 do sistema de venda da empresa. Ao ser aberta a seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image29.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image057.png?raw=true)
 
 Para BUSCAR um produto cadastrado no banco de dados é só digitar uma
 palavra referente ao produto no campo “Localizar”, caso haja algo
 cadastrado com a palavra informada, somente será exibo o que a pesquisa
 localizar, exemplo:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image30.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image059.png?raw=true)
 
 Para Cadastrar um Produto novo no Banco de dados, clique em “Novo” e a
 seguinte tela será exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image31.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image061.png?raw=true)
 
 Após informar todos os dados cadastrais do produto, clique em “Salvar”
 para que o produto seja salvo no banco de dados, caso contrario todas as
@@ -391,7 +392,7 @@ este produto.
 
 Exemplo de Produto sofrendo Alteração:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image32.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image063.png?raw=true)
 
 Para EXCLUIR um produto, basta selecioná-lo e pressionar o botão
 “Excluir”, mas vale lembrar que só será excluído o produto que não tiver
@@ -404,7 +405,7 @@ O Cadastro de Departamentos é o onde são cadastrados todos os
 departamentos de uma empresa, sua principal finalidade é o controle de
 gastos. Ao ser aberta a seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image33.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image065.png?raw=true)
 
 Para CRIAR um novo departamento é só clicar em “Criar” e descrever este
 novo departamento no campo “Nome Departamento”, e clicar em “Salvar”
@@ -431,12 +432,12 @@ ter acesso a essa senha.
 Ao ser aberta a tela de cadastros de funcionários, a seguinte tela é
 exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image34.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image067.png?raw=true)
 
 Para INSERIR um novo funcionário, pressione o botão “Novo”, e a seguinte
 tela será aberta:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image35.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image069.png?raw=true)
 Agora, com acesso aos campos, é só informar os dados cadastrais do
 funcionário, feito isso é só pressionar o botão “Salvar” que o
 funcionário será salvo no banco de dados.
@@ -447,10 +448,10 @@ selecioná-lo para ter acesso aos dados atuais dele nos campos de
 exemplo abaixo onde o funcionário “Beto” esta tendo seu nome alterado
 para “Beto dos Santos Brito”:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image36.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image071.png?raw=true)
 Depois, já ALTERADO e salvo no banco de dados:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image37.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image073.png?raw=true)
 
 Para EXLUIR um funcionário cadastrado, selecione o funcionário desejado
 e pressione o botão “Excluir”, e após então pressione o botão “Salvar”
@@ -462,7 +463,7 @@ O Cadastro de Cartões é o onde são cadastrados todos os cartões de
 créditos aceitos pela empresa. Ao ser aberta a tela de cadastros de
 cartões, a seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image38.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image075.png?raw=true)
 
 Para Inserir um novo cartão no banco de dados pressione o botão “Criar”,
 um novo registro será criado e os campos “Nome Cartão” e “Taxa Cartão”
@@ -472,7 +473,7 @@ para inserir o novo cartão no banco de dados.
 
 Exemplo de cartão sendo inserido:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image39.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image077.png?raw=true)
 
 Para EDITAR um cartão, deve-se selecionar o cartão desejado e alterar a
 informação contida nos campos abaixo da tabela que contem os cartões
@@ -490,7 +491,7 @@ O Cadastro de Plano de Contas é o onde são cadastradas todas as contas
 fixas da empresa. Ao ser aberta a tela de cadastros de plano de contas,
 a seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image40.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image079.png?raw=true)
 Para CRIAR uma nova conta fixa, pressione o botão “Criar”, um novo
 registro será criado, e então a descrição da conta deve ser informada no
 campo “Descrição Plano Conta”
@@ -510,7 +511,7 @@ cadastradas todas as formas de recebimentos de valores da empresa. Ao
 ser aberta a tela de tipos de pagamentos e recebimentos, a seguinte tela
 é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image41.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image081.png?raw=true)
 
 Para INSERIR um novo tipo de pagamento/recebimento, pressione o botão
 “Inserir”, um novo registro será criado, e então a descrição do tipo de
@@ -545,7 +546,7 @@ Função a ser Implementada em futura versão.
 A tela de ajuste de preços tem a função de ajustar os preços de todos os
 produtos do estoque, ou determinado produto, de acordo com a inflação.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image42.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image083.png?raw=true)
 
 Para ajustar o estoque de um produto, é só selecioná-lo informar a
 quantia no campo “Ajustar em”, selecionar aumento positivo ou negativo e
@@ -563,7 +564,7 @@ um orçamento para o cliente, todos os orçamentos ficam guardados no
 banco de dados para consulta posterior. Ao acessar esta opção, a
 seguinte tela é exibida:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image43.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image085.png?raw=true)
 
 Para Realizar um novo orçamento, deve se pressionar o botão “Iniciar
 Orçamento”, que um novo registro será criado, liberando os campos de
@@ -573,16 +574,16 @@ solicitado.
 Veja a imagem de exemplo a seguir com o botão “Iniciar Orçamento”
 pressionado:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image44.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image087.png?raw=true)
 
 Dados cadastrais do orçamento, informados:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image45.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image089.png?raw=true)
 
 Para inserir um produto no orçamento, pressione o botão “Inserir Item”,
 ao ser pressionado a tela de produtos será aberta:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image46.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image091.png?raw=true)
 
 Para inserir um produto, você pode selecioná-lo ou realizar uma
 pesquisar infomando uma palavra referente a este produto, após
@@ -591,21 +592,21 @@ pressionar o botão “Importar” ou teclar a tecla ENTER do seu teclado.
 
 Exemplo de produto importado:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image47.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image093.png?raw=true)
 
 Ao importar um produto, ele já sai com o foco selecionado na célula
 “Qtde” (quantidade) da tabela “Itens do Orçamento”, sendo necessário
 somente informar a quantidade de itens deste produto você deseja
 adicionar. Exemplo:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image48.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image095.png?raw=true)
 
 Você pode inserir quantos itens forem necessários, devendo claro,
 informar uma quantidade a eles, assim que todos os itens necessários
 forem adicionados (importados) para o orçamento, você deve pressionar o
 botão “Calcula Totais” para calcular o valor total do orçamento.
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image49.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image097.png?raw=true)
 
 Assim que o botão “Calcula Totais” for pressionado, será automaticamente
 calculado o valor sub-total de cada item, e o valor total da compra.
@@ -619,7 +620,7 @@ cliente tenha uma cópia do mesmo, para fazer isso pressione o botão
 
 Exemplo da impressão do orçamento criado:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image50.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image099.png?raw=true)
 
 Para Imprimir o orçamento pressione o primeiro botão da aba superior
 (imprimir ), para sair do view da impressão pressione o botão ao lado.
@@ -650,25 +651,25 @@ Se um funcionário tentar acessar algum menu ou sub-menu do sistema, ao
 qual ele não tem acesso, por exemplo o módulo orçamento, ele recebera a
 mensagem abaixo e não terá acesso a este local:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image51.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image101.png?raw=true)
 
 Se você for um funcionário que tem acesso total ao sistema, e deseja
 conceder ou revogar uma permissão, entre no menu “Utilitários”, no
 sub-menu “Sistema de Segurança”, e no sub-menu de “Sistemas de
 Segurança”, “Definir Nível de Acesso”:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image52.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image103.png?raw=true)
 
 Ao acessar o sub-menu “Definir Nível de Acesso” você será apresentado a
 esta tela:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image53.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image105.png?raw=true)
 
 Na tabela “Funcionário”, consta todos os funcionários cadastrados no
 sistema, na tabela “Nível de Acesso” constam as permissões destes
 funcionários. (Veja na imagem do detalhe abaixo)
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image53.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image106.png?raw=true)
 
 Isso significa que o funcionário de código 4 (Maria) tem acesso a todos
 os módulos descritos (Clientes, Contas Bancárias, Fornecedores, etc.), e
@@ -679,20 +680,20 @@ produto, ou funcionário, etc.).
 Para conceder uma permissão, devemos primeiro selecionar um funcionário
 ao qual daremos a permissão:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image54.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image108.png?raw=true)
 
 No caso, será dada alguma nova permissão a funcionária Maria, os módulos
 aos quais podemos autorizar um acesso estão no campo esquerdo da janela
 separado em menus e sub-menus:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image55.png?raw=true)
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image56.png?raw=true)
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image57.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image110.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image111.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image114.png?raw=true)
 
 Para conceder uma Permissão deve-se então selecionar o funcionário (no
 caso Maria), e deve se selecionar o item de menu ou sub-menu desejado:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image58.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image115.png?raw=true)
 
 Após selecionarmos o funcionário, e módulo desejado, devemos confirmar
 esta autorização pressionando o botão “Conceder” para conceder este
@@ -702,13 +703,13 @@ Assim que o botão “Conceder” for pressionado, automaticamente aparecerá
 no final da lista da tabela “Nível de Acesso”, o código do funcionário e
 o módulo ao qual ele recebeu privilégio: (Não esqueça de pressionar o
 botão “Salvar” para confirmar a
-operação)![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image59.png?raw=true)
+operação)![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image117.png?raw=true)
 
 Sendo assim, agora a funcionaria cujo código é 4 (funcionária Maria),
 possui acesso ao módulo de realizar orçamentos, ao qual ela recebeu a
 mensagem de não possuir acesso anteriormente:
 
-![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image60.png?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image120.png?raw=true)
 
 *TELA DE VENDAS ECFTEF:*
 ------------------------
@@ -718,14 +719,14 @@ principal responsável pelo fluxo de mercadorias no estoque é ele que
 realiza todas as vendas dos produtos previamente cadastrados. Tela de
 Vendas:
 
-![G:\\ECFTEF\\imagem.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image61.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image122.jpeg?raw=true)
 
 O funcionamento da “Frente de Caixa com TEF” consiste no seguinte, ao
 iniciar a tela, a impressora fiscal abre um novo cupom fiscal para venda
 (no exemplo é utilizado um emulador de impressora fiscal, mas a
 impressão é exatamente a mesma):
 
-![G:\\ECFTEF\\imagem2.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image62.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image124.jpeg?raw=true)
 
 Após o cupom fiscal já estiver aberto à tela já estará funcionando,
 somente aguardando que alguém entre com o código de um produto e a
@@ -734,29 +735,28 @@ quantidade para realizar uma venda.
 Para entrar com o código de um produto, poderá ser usado um leitor de
 códigos de barra, que quando o código é informado, ele automaticamente
 já o informa e espera a quantidade ser confirmada para então realizar a
-venda: ![G:\\ECFTEF\\Sem
-título3.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image63.jpeg?raw=true)
+venda: ![=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image126.jpeg?raw=true)
 
 Para Confirmar a quantidade deve-ser ser pressionada a tecla &lt;TAB&gt;
 do teclado, assim que confirmada a quantidade, ele realiza a venda:
 
-![G:\\ECFTEF\\imagem5.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image64.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image128.jpeg?raw=true)
 
 Assim que ele realiza a venda, o produto já é impresso na Nota Fiscal, e
 ele já volta para o inicio, aguardando que algum código seja informado,
 e assim sucessivamente:
 
-![G:\\ECFTEF\\imagem6.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image65.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image130.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem7.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image66.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image132.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem9.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image67.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image134.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem10.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image68.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image136.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem11.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image69.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image138.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem12.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image70.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image140.jpeg?raw=true)
 
 No Rodapé da tela de vendas possui alguns atalhos para funções de
 vendas, como:
@@ -776,9 +776,9 @@ venda);
 **- Concede Desconto:** Concede um valor de desconto a nota fiscal atual
 (vide exemplo abaixo).
 
-![G:\\ECFTEF\\imagem13.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image71.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image142.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem14.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image72.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image144.jpeg?raw=true)
 
 O Valor da compra que era de R\$47,50 com o desconto de R\$02,50 passou
 a custar R\$45,00.
@@ -794,9 +794,9 @@ do teclado, que automaticamente o cupom será fechado, e a venda será
 finalizada, informando para o comprador, no campo “Troco”, o valor que
 ele devera receber de troco:
 
-![G:\\ECFTEF\\imagem16.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image73.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image146.jpeg?raw=true)
 
-![G:\\ECFTEF\\imagem17.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image74.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image148.jpeg?raw=true)
 
 ### *- Redução Z: *
 
@@ -814,14 +814,14 @@ Para emitir a Redução Z, você deve clicar com o botão DIREITO do mouse
 sobre o fundo da tela de frente de caixa, navegar até o menu “Comandos
 de Relatórios Fiscais”, e clicar no sub-menu “Redução Z”:
 
-![G:\\ECFTEF\\imagem20.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image75.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image150.jpeg?raw=true)
 
 Quando Você clicar para fazer a redução, o programa perguntará se você
 realmente quer fazer a redução, caso sim, ela será realizada.
 
 Segue na próxima pagina, a imagem de uma redução Z:
 
-![G:\\ECFTEF\\imagem18.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image76.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image152.jpeg?raw=true)
 
 ### *- Leitura X:*
 
@@ -845,9 +845,10 @@ Para emitir uma Leitura X, você deve clicar com o botão DIREITO do mouse
 sobre o fundo da tela de frente de caixa, navegar até o menu “Comandos
 de Relatórios Fiscais”, e clicar no sub-menu “Leitura X”:
 
-![G:\\ECFTEF\\imagem20.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image75.jpeg?raw=true)
 
 Segue abaixo a imagem de uma Leitura X:
 
-![G:\\ECFTEF\\imagem19.JPG?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image77.jpeg?raw=true)
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image156.jpeg?raw=true)
 =======
+
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image155.jpeg?raw=true)
