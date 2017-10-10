@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.persistence.EntityManager" name="entityManager">
+      <Properties>
+        <Property name="persistenceUnit" type="java.lang.String" value="siscomjavaPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.persistence.Query" name="query">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT C FROM CotCab C"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="list">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="query"/>
+        </Property>
+        <Property name="observable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.CotCab&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.persistence.Query" name="fornecedorQuery">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT f FROM Fornecedor f"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="fornecedorList">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="fornecedorQuery"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Fornecedor&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="br.com.siscom.renderer.CotacaoCompraListCellRenderer" name="cotacaoCompraListCellRenderer1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="cotacaoCompraListCellRenderer1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jPanel1" alignment="0" pref="614" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="119" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" pref="180" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="masterScrollPane">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="150" y="140" width="120" height="10"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="masterTable">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="99" type="rgb"/>
+                </Property>
+              </Properties>
+              <BindingProperties>
+                <BindingProperty name="elements" source="list" target="masterTable" targetPath="elements" updateStrategy="0" immediately="false">
+                  <Subbinding sourcePath="${codCotCab}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="0"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${dataCotCat}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="1"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="java.util.Date.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${forn1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="2"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${forn2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="3"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${forn3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="4"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${forn4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="5"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${forn5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="6"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${condicoes1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="7"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${condicoes2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="8"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${condicoes3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="9"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${condicoes4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="10"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${condicoes5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="11"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${desconto1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="12"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${desconto2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="13"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${desconto3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="14"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${desconto4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="15"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${desconto5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="16"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${entrega1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="17"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${entrega2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="18"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${entrega3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="19"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${entrega4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="20"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${entrega5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="21"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="22"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="23"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="24"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="25"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="26"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.codCotCab}" target="jTextField1" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="30" width="60" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="100" y="30" width="80" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="cotacaoCompraListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="fornecedorList" target="jComboBox1" targetPath="elements" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="210" y="30" width="140" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="cotacaoCompraListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="fornecedorList" target="jComboBox2" targetPath="elements" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="30" width="140" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="cotacaoCompraListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="fornecedorList" target="jComboBox3" targetPath="elements" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="80" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox4">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="cotacaoCompraListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="fornecedorList" target="jComboBox4" targetPath="elements" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="80" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox5">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="cotacaoCompraListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="fornecedorList" target="jComboBox5" targetPath="elements" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="80" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="100" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor 01:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="210" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor 02:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor 03:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="60" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor 04:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="60" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fornecedor 05:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="60" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="4">
+              <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="detailScrollPane">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="detailTable">
+              <BindingProperties>
+                <BindingProperty name="elements" source="masterTable" sourcePath="${selectedElement.cotDetCollection}" target="detailTable" targetPath="elements" updateStrategy="0" immediately="false">
+                  <Property name="incompletePathValue" type="java.util.List" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                    <Connection code="java.util.Collections.emptyList()" type="code"/>
+                  </Property>
+                  <Subbinding sourcePath="${qtdeCotDet}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="0"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${unit1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="1"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${unit2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="2"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${unit3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="3"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${unit4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="4"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${unit5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="5"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total1}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="6"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total2}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="7"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total3}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="8"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total4}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="9"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${total5}">
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="10"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Double.class"/>
+                  </Subbinding>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="newButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nova Cota&#xe7;&#xe3;o"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="saveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Confirmar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="refreshButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refreshButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="deleteDetailButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Excluir Item"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="enabled" source="detailTable" sourcePath="${selectedElement != null}" target="deleteDetailButton" targetPath="enabled" updateStrategy="1" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteDetailButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="newDetailButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Importar Requisi&#xe7;&#xe3;o"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="newDetailButton" targetPath="enabled" updateStrategy="1" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newDetailButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,129 @@
+DefaultMutableTreeNode pai = new DefaultMutableTreeNode("Prime - Sistema Comercial");
+
+DefaultMutableTreeNode filho1 = new DefaultMutableTreeNode("Cadastro");
+pai.add(filho1);
+
+DefaultMutableTreeNode neto1 = new DefaultMutableTreeNode("Clientes");
+filho1.add(neto1);
+
+DefaultMutableTreeNode neto2 = new DefaultMutableTreeNode("Fornecedores");
+filho1.add(neto2);
+
+DefaultMutableTreeNode neto3 = new DefaultMutableTreeNode("Contas Bancárias");
+filho1.add(neto3);
+
+DefaultMutableTreeNode neto4 = new DefaultMutableTreeNode("Unidades");
+filho1.add(neto4);
+
+DefaultMutableTreeNode neto5 = new DefaultMutableTreeNode("Produtos");
+filho1.add(neto5);
+
+DefaultMutableTreeNode neto6 = new DefaultMutableTreeNode("Departamentos");
+filho1.add(neto6);
+
+DefaultMutableTreeNode neto7 = new DefaultMutableTreeNode("Funcionários");
+filho1.add(neto7);
+
+DefaultMutableTreeNode neto8 = new DefaultMutableTreeNode("Cartões");
+filho1.add(neto8);
+
+DefaultMutableTreeNode neto9 = new DefaultMutableTreeNode("Plano de Contas");
+filho1.add(neto9);
+
+DefaultMutableTreeNode neto10 = new DefaultMutableTreeNode("Tipo de Pgto / Rcbto");
+filho1.add(neto10);
+
+DefaultMutableTreeNode neto11 = new DefaultMutableTreeNode("Sair");
+filho1.add(neto11);
+
+
+
+DefaultMutableTreeNode filho2 = new DefaultMutableTreeNode("Movimento");
+pai.add(filho2);
+
+DefaultMutableTreeNode neto12 = new DefaultMutableTreeNode("Contas a Pagar");
+filho2.add(neto12);
+
+DefaultMutableTreeNode neto13 = new DefaultMutableTreeNode("Contas a Receber");
+filho2.add(neto13);
+
+DefaultMutableTreeNode neto14 = new DefaultMutableTreeNode("Vendas");
+filho2.add(neto14);
+
+DefaultMutableTreeNode neto15 = new DefaultMutableTreeNode("Orçamentos");
+filho2.add(neto15);
+
+//Sub-Menu de Movimento
+DefaultMutableTreeNode neto16 = new DefaultMutableTreeNode("Controle de Estoque");
+filho2.add(neto16);
+//Sub-menu de Controle de Estoque
+DefaultMutableTreeNode bisnetodeEstoque = new DefaultMutableTreeNode("Entrada de NF");
+neto16.add(bisnetodeEstoque);
+//Sub-menu de Controle de Estoque
+DefaultMutableTreeNode bisnetodeEstoque2 = new DefaultMutableTreeNode("Atualização de Preços");
+neto16.add(bisnetodeEstoque2);
+
+//Sub-Menu de Movimento
+DefaultMutableTreeNode neto17 = new DefaultMutableTreeNode("Compras");
+filho2.add(neto17);
+//Sub-menu de Compras
+DefaultMutableTreeNode bisnetodeCompras = new DefaultMutableTreeNode("Requisição");
+neto17.add(bisnetodeCompras);
+//Sub-menu de Compras
+DefaultMutableTreeNode bisnetodeCompras2 = new DefaultMutableTreeNode("Cotação");
+neto17.add(bisnetodeCompras2);
+//Sub-menu de Compras
+DefaultMutableTreeNode bisnetodeCompras3 = new DefaultMutableTreeNode("Confirma Cotação");
+neto17.add(bisnetodeCompras3);
+//Sub-menu de Compras
+DefaultMutableTreeNode bisnetodeCompras4 = new DefaultMutableTreeNode("Pedido");
+neto17.add(bisnetodeCompras4);
+
+
+
+//Sub-Menu de Movimento
+DefaultMutableTreeNode neto18 = new DefaultMutableTreeNode("Tesouraria e Banco");
+filho2.add(neto18);
+//Sub-menu de Tesouraria e Banco
+DefaultMutableTreeNode bisnetodeTesourariaBanco = new DefaultMutableTreeNode("Emissão de Cheques");
+neto18.add(bisnetodeTesourariaBanco);
+//Sub-menu de Tesouraria e Banco
+DefaultMutableTreeNode bisnetodeTesourariaBanco2 = new DefaultMutableTreeNode("Conciliação de Cheques");
+neto18.add(bisnetodeTesourariaBanco2);
+//Sub-menu de Tesouraria e Banco
+DefaultMutableTreeNode bisnetodeTesourariaBanco3 = new DefaultMutableTreeNode("Movimento de Banco");
+neto18.add(bisnetodeTesourariaBanco3);
+
+
+
+
+
+
+DefaultMutableTreeNode filho3 = new DefaultMutableTreeNode("Utilitários");
+pai.add(filho3);
+
+DefaultMutableTreeNode neto19 = new DefaultMutableTreeNode("Calculadora");
+filho3.add(neto19);
+
+DefaultMutableTreeNode neto20 = new DefaultMutableTreeNode("Calendário");
+filho3.add(neto20);
+
+//Sub-Menu de Utilitários
+DefaultMutableTreeNode neto21 = new DefaultMutableTreeNode("Sistema de Segurança");
+filho3.add(neto21);
+//Sub-menu de Sistema de Segurança
+DefaultMutableTreeNode bisnetodeSistemaSegurança = new DefaultMutableTreeNode("Definir Nível de Acesso");
+neto21.add(bisnetodeSistemaSegurança);
+//Sub-menu de Sistema de Segurança
+DefaultMutableTreeNode bisnetodeSistemaSegurança2 = new DefaultMutableTreeNode("Trocar Senha Corrente");
+neto21.add(bisnetodeSistemaSegurança2);
+
+
+DefaultMutableTreeNode filho4 = new DefaultMutableTreeNode("Ajuda");
+pai.add(filho4);
+
+DefaultMutableTreeNode neto22 = new DefaultMutableTreeNode("Conteúdo");
+filho4.add(neto22);
+
+DefaultMutableTreeNode neto23 = new DefaultMutableTreeNode("Sobre o Sistema");
+filho4.add(neto23);

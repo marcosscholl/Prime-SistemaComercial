@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.persistence.EntityManager" name="entityManager">
+      <Properties>
+        <Property name="persistenceUnit" type="java.lang.String" value="siscomjavaPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.persistence.Query" name="query">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT f FROM Funcionario f"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="list">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="query"/>
+        </Property>
+        <Property name="observable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Funcionario&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.persistence.Query" name="departamentoQuery">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT d FROM Departamento d"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="departamentoList">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="departamentoQuery"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Departamento&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="br.com.siscom.renderer.DepartamentoListCellRenderer" name="departamentoListCellRenderer1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="departamentoListCellRenderer1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.persistence.Query" name="departamentoQuery1">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT d FROM Departamento d"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="departamentoList1">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="departamentoQuery1"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Departamento&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                      <Component id="newButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="deleteButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="refreshButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="saveButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="refreshButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="newButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="refreshButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refreshButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="newButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Novo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Excluir"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="deleteButton" targetPath="enabled" updateStrategy="1" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Informa&#xe7;&#xf5;es do Funcionario"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="1">
+                          <Component id="loginFuncionarioLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="loginFuncionarioField" pref="299" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="senhaFuncionarioLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="jPasswordField1" min="-2" pref="229" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="1">
+                          <Component id="codDepartamentoLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jComboBox1" min="-2" pref="119" max="-2" attributes="0"/>
+                          <EmptySpace pref="51" max="32767" attributes="0"/>
+                          <Component id="nomeFuncionarioLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="nomeFuncionarioField" min="-2" pref="398" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="funcaoFuncionarioLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="funcaoFuncionarioField" min="-2" pref="194" max="-2" attributes="1"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="admissaoFuncionarioLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextField1" min="-2" pref="159" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="acessoTotalLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="acessoTotalField" pref="111" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="codDepartamentoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nomeFuncionarioField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nomeFuncionarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="funcaoFuncionarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="funcaoFuncionarioField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acessoTotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acessoTotalField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="admissaoFuncionarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="loginFuncionarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="loginFuncionarioField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="senhaFuncionarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPasswordField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="nomeFuncionarioField">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.nomeFuncionario}" target="nomeFuncionarioField" targetPath="text" updateStrategy="0" immediately="false">
+              <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="nomeFuncionarioField" targetPath="enabled" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acessoTotalLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Acesso Total:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="funcaoFuncionarioLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fun&#xe7;&#xe3;o do Funcionario:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="acessoTotalField">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.acessoTotal}" target="acessoTotalField" targetPath="text" updateStrategy="0" immediately="false">
+              <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="acessoTotalField" targetPath="enabled" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="loginFuncionarioLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Login do Funcion&#xe1;rio:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="loginFuncionarioField">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.loginFuncionario}" target="loginFuncionarioField" targetPath="text" updateStrategy="0" immediately="false">
+              <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="loginFuncionarioField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="funcaoFuncionarioField">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.funcaoFuncionario}" target="funcaoFuncionarioField" targetPath="text" updateStrategy="0" immediately="false">
+              <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="funcaoFuncionarioField" targetPath="enabled" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="senhaFuncionarioLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Senha do Funcion&#xe1;rio:"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="senhaFuncionarioLabel.setVisible(true);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="admissaoFuncionarioLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data de Admiss&#xe3;o:"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JLabel()"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="//new javax.swing.JLabel() codigo original"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nomeFuncionarioLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome do Funcion&#xe1;rio:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="codDepartamentoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cod Departamento:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="jPasswordField1">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.senhaFuncionario}" target="jPasswordField1" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jPasswordField1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jPasswordField1FocusLost"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <BindingProperties>
+            <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.admissaoFuncionario}" target="jTextField1" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+            <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jTextField1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="try{  &#xd;&#xa;   javax.swing.text.MaskFormatter data= new javax.swing.text.MaskFormatter(&quot;##/##/####&quot;);  &#xd;&#xa;   jTextField1 = new javax.swing.JFormattedTextField(data);  &#xd;&#xa;}  &#xd;&#xa;   catch (Exception e){  &#xd;&#xa;}   "/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="renderer" type="javax.swing.ListCellRenderer" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="departamentoListCellRenderer1"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="departamentoList1" target="jComboBox1" targetPath="elements" updateStrategy="0" immediately="false"/>
+            <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.codDepartamento}" target="jComboBox1" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Funcion&#xe1;rios Cadastrados"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="masterScrollPane" pref="789" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="masterScrollPane" pref="216" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="masterScrollPane">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="masterTable">
+              <Properties>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="50" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="10" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <BindingProperties>
+                <BindingProperty name="elements" source="list" target="masterTable" targetPath="elements" updateStrategy="0" immediately="true">
+                  <Subbinding sourcePath="${codDepartamento.nomeDepartamento}">
+                    <BindingParameter name="NAME" value="Departamento"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${nomeFuncionario}">
+                    <BindingParameter name="NAME" value="Funcion&#xe1;rio"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${funcaoFuncionario}">
+                    <BindingParameter name="NAME" value="Fun&#xe7;&#xe3;o"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${loginFuncionario}">
+                    <BindingParameter name="NAME" value="Login do Funcion&#xe1;rio"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${admissaoFuncionario}">
+                    <BindingParameter name="NAME" value="Data Da Admiss&#xe3;o"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                  </Subbinding>
+                  <Subbinding sourcePath="${acessoTotal}">
+                    <BindingParameter name="NAME" value="Acesso Total"/>
+                    <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Character.class"/>
+                  </Subbinding>
+                </BindingProperty>
+              </BindingProperties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jTableBinding.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

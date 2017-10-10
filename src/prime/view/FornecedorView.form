@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.persistence.EntityManager" name="entityManager">
+      <Properties>
+        <Property name="persistenceUnit" type="java.lang.String" value="siscomjavaPU"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="java.beans.Beans.isDesignTime() ? null : javax.persistence.Persistence.createEntityManagerFactory(&quot;siscomjavaPU&quot;).createEntityManager()"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.persistence.Query" name="query">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT f FROM Fornecedor f"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="java.beans.Beans.isDesignTime() ? null : entityManager.createQuery(&quot;Select f FROM Fornecedor f&quot;)"/>
+      </AuxValues>
+    </Component>
+    <Component class="java.util.List" name="list">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="query"/>
+        </Property>
+        <Property name="observable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Fornecedor&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="tipoPessoaGroup">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" pref="356" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="1"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTabbedPane1" alignment="1" pref="692" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jTabbedPane1" min="-2" pref="291" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTabbedPane1FocusGained"/>
+              </Events>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="masterScrollPane">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Rela&#xe7;&#xe3;o de Fornecedores">
+                        <Property name="tabTitle" type="java.lang.String" value="Rela&#xe7;&#xe3;o de Fornecedores"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="masterTable">
+                      <Properties>
+                        <Property name="autoResizeMode" type="int" value="0"/>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="230" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="2" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="elements" source="list" target="masterTable" targetPath="elements" updateStrategy="0" immediately="true">
+                          <Subbinding sourcePath="${nomeFornecedor}">
+                            <BindingParameter name="NAME" value="Nome"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${cpfFornecedor}">
+                            <BindingParameter name="NAME" value="CPF"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${rgFornecedor}">
+                            <BindingParameter name="NAME" value="RG"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${orgaoRgFornecedor}">
+                            <BindingParameter name="NAME" value="Org&#xe3;o RG"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${cnpjFornecedor}">
+                            <BindingParameter name="NAME" value="Cnpj"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${tipoFornecedor}">
+                            <BindingParameter name="NAME" value="Tipo"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Character.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${enderecoFornecedor}">
+                            <BindingParameter name="NAME" value="Endereco"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${bairroFornecedor}">
+                            <BindingParameter name="NAME" value="Bairro"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${cidadeFornecedor}">
+                            <BindingParameter name="NAME" value="Cidade"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${ufFornecedor}">
+                            <BindingParameter name="NAME" value="UF"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${cepFornecedor}">
+                            <BindingParameter name="NAME" value="CEP"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${emailFornecedor}">
+                            <BindingParameter name="NAME" value="Email"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${siteFornecedor}">
+                            <BindingParameter name="NAME" value="Site"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${foneFornecedor}">
+                            <BindingParameter name="NAME" value="Fone"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${celularFornecedor}">
+                            <BindingParameter name="NAME" value="Celular"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${faxFornecedor}">
+                            <BindingParameter name="NAME" value="Fax"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                          <Subbinding sourcePath="${contatoFornecedor}">
+                            <BindingParameter name="NAME" value="Contato"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                            <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                          </Subbinding>
+                        </BindingProperty>
+                      </BindingProperties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="jTableBinding.setEditable(false);"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Incluindo/Alterando um Fornecedor">
+                        <Property name="tabTitle" type="java.lang.String" value="Incluindo/Alterando um Fornecedor"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="foneFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField3" pref="136" max="32767" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="celularFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField4" min="-2" pref="96" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="faxFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="faxFornecedorField" min="-2" pref="122" max="-2" attributes="1"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="nomeFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cpfFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cnpjFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="enderecoFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="nomeFornecedorField" min="-2" pref="292" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jComboBox1" pref="42" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="enderecoFornecedorField" pref="515" max="32767" attributes="1"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jFormattedTextField1" min="-2" pref="141" max="-2" attributes="1"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="rgFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="rgFornecedorField" min="-2" pref="130" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="orgaoRgFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jFormattedTextField6" pref="69" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="1">
+                                              <Component id="cnpjFornecedorField" min="-2" pref="216" max="-2" attributes="1"/>
+                                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                              <Component id="cepFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jFormattedTextField2" pref="157" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="bairroFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="emailFornecedorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="1">
+                                              <Component id="emailFornecedorField" min="-2" pref="144" max="-2" attributes="1"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="siteFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="siteFornecedorField" pref="269" max="32767" attributes="1"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="1">
+                                              <Component id="bairroFornecedorField" min="-2" pref="154" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cidadeFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cidadeFornecedorField" pref="231" max="32767" attributes="0"/>
+                                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                              <Component id="ufFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jFormattedTextField7" min="-2" pref="28" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="contatoFornecedorLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="contatoFornecedorField" pref="509" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nomeFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nomeFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cpfFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rgFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="orgaoRgFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rgFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cnpjFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cnpjFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cepFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="enderecoFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="enderecoFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bairroFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cidadeFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cidadeFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bairroFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ufFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="emailFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="emailFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="siteFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="siteFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="foneFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="faxFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="faxFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="celularFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jFormattedTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="contatoFornecedorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="contatoFornecedorField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="nomeFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nome Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cpfFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cpf Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="rgFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Rg Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="orgaoRgFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Org&#xe3;o Rg:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cnpjFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cnpj Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="enderecoFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Endereco Fornec.:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bairroFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Bairro:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cidadeFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cidade:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ufFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="UF:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="cepFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cep Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="emailFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Email:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="siteFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Site Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="foneFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fone Fornecedor: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="celularFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Celular Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="faxFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fax:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="contatoFornecedorLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Contato Fornecedor:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nomeFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.nomeFornecedor}" target="nomeFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="nomeFornecedorField" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                      <Events>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="nomeFornecedorFieldFocusGained"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="rgFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.rgFornecedor}" target="rgFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="editable" source="jComboBox1" sourcePath="${selectedItem == &apos;F&apos;}" target="rgFornecedorField" targetPath="editable" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="rgFornecedorField" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="cnpjFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cnpjFornecedor}" target="cnpjFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="editable" source="jComboBox1" sourcePath="${selectedItem == &apos;J&apos;}" target="cnpjFornecedorField" targetPath="editable" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cnpjFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new WebIICampoNumerico()"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="enderecoFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.enderecoFornecedor}" target="enderecoFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="enderecoFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bairroFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.bairroFornecedor}" target="bairroFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="bairroFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="cidadeFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cidadeFornecedor}" target="cidadeFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cidadeFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="emailFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.emailFornecedor}" target="emailFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="emailFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="siteFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.siteFornecedor}" target="siteFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="siteFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="faxFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.faxFornecedor}" target="faxFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="faxFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="contatoFornecedorField">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.contatoFornecedor}" target="contatoFornecedorField" targetPath="text" updateStrategy="0" immediately="false">
+                          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="contatoFornecedorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField1">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="###.###.###-##" subtype="-1" type="5"/>
+                        </Property>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="value" source="masterTable" sourcePath="${selectedElement.cpfFornecedor}" target="jFormattedTextField1" targetPath="value" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="editable" source="jComboBox1" sourcePath="${selectedItem == &apos;F&apos;}" target="jFormattedTextField1" targetPath="editable" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFormattedTextField1ActionPerformed"/>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField1FocusGained"/>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField1FocusLost"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField3">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="(##)####-####" subtype="-1" type="5"/>
+                        </Property>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="value" source="masterTable" sourcePath="${selectedElement.foneFornecedor}" target="jFormattedTextField3" targetPath="value" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                      <Events>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField3FocusGained"/>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField3FocusLost"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField4">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="(##)####-####" subtype="-1" type="5"/>
+                        </Property>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="value" source="masterTable" sourcePath="${selectedElement.celularFornecedor}" target="jFormattedTextField4" targetPath="value" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                      <Events>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField4FocusGained"/>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField4FocusLost"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Tipo de Pessoa: (Fisica/Juridica)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jComboBox1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="2">
+                            <StringItem index="0" value="F"/>
+                            <StringItem index="1" value="J"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.tipoFornecedor}" target="jComboBox1" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jComboBox1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField6">
+                      <BindingProperties>
+                        <BindingProperty name="value" source="masterTable" sourcePath="${selectedElement.orgaoRgFornecedor}" target="jFormattedTextField6" targetPath="value" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="editable" source="jComboBox1" sourcePath="${selectedItem == &apos;F&apos;}" target="jFormattedTextField6" targetPath="editable" updateStrategy="0" immediately="false"/>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                      <Events>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jFormattedTextField6FocusGained"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jFormattedTextField2">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cepFornecedor}" target="jFormattedTextField2" targetPath="text" updateStrategy="0" immediately="false">
+                          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jFormattedTextField7">
+                      <BindingProperties>
+                        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.ufFornecedor}" target="jFormattedTextField7" targetPath="text" updateStrategy="0" immediately="false">
+                          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                        </BindingProperty>
+                        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jFormattedTextField7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="newButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="deleteButton" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="refreshButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="saveButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="44" max="32767" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="refreshButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="deleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alterar"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jButton1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                  </BindingProperties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="deleteButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Excluir"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[75, 23]"/>
+                    </Property>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="deleteButton" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                  </BindingProperties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="saveButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Salvar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="refreshButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cancelar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refreshButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="newButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Inserir"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Buscar CEP"/>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="jButton2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+                  </BindingProperties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sair"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.persistence.EntityManager" name="entityManager">
+      <Properties>
+        <Property name="persistenceUnit" type="java.lang.String" value="siscomjavaPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.persistence.Query" name="funcionarioQuery">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT f FROM Funcionario f"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="funcionarioList">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="funcionarioQuery"/>
+        </Property>
+        <Property name="observable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.Funcionario&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.persistence.Query" name="nivelAcessoQuery">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT n FROM NivelAcesso n"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="nivelAcessoList">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="nivelAcessoQuery"/>
+        </Property>
+        <Property name="observable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;br.com.siscom.bean.NivelAcesso&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Controle de Acesso"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="252" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" min="-2" pref="401" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTree" name="jTree1">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTree(pai)"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="DefaultMutableTreeNode pai = new DefaultMutableTreeNode(&quot;Prime - Sistema Comercial&quot;);&#xa;&#xa;DefaultMutableTreeNode filho1 = new DefaultMutableTreeNode(&quot;Cadastro&quot;);&#xa;pai.add(filho1);&#xa;&#xa;DefaultMutableTreeNode neto1 = new DefaultMutableTreeNode(&quot;Clientes&quot;);&#xa;filho1.add(neto1);&#xa;&#xa;DefaultMutableTreeNode neto2 = new DefaultMutableTreeNode(&quot;Fornecedores&quot;);&#xa;filho1.add(neto2);&#xa;&#xa;DefaultMutableTreeNode neto3 = new DefaultMutableTreeNode(&quot;Contas Banc&#xe1;rias&quot;);&#xa;filho1.add(neto3);&#xa;&#xa;DefaultMutableTreeNode neto4 = new DefaultMutableTreeNode(&quot;Unidades&quot;);&#xa;filho1.add(neto4);&#xa;&#xa;DefaultMutableTreeNode neto5 = new DefaultMutableTreeNode(&quot;Produtos&quot;);&#xa;filho1.add(neto5);&#xa;&#xa;DefaultMutableTreeNode neto6 = new DefaultMutableTreeNode(&quot;Departamentos&quot;);&#xa;filho1.add(neto6);&#xa;&#xa;DefaultMutableTreeNode neto7 = new DefaultMutableTreeNode(&quot;Funcion&#xe1;rios&quot;);&#xa;filho1.add(neto7);&#xa;&#xa;DefaultMutableTreeNode neto8 = new DefaultMutableTreeNode(&quot;Cart&#xf5;es&quot;);&#xa;filho1.add(neto8);&#xa;&#xa;DefaultMutableTreeNode neto9 = new DefaultMutableTreeNode(&quot;Plano de Contas&quot;);&#xa;filho1.add(neto9);&#xa;&#xa;DefaultMutableTreeNode neto10 = new DefaultMutableTreeNode(&quot;Tipo de Pgto / Rcbto&quot;);&#xa;filho1.add(neto10);&#xa;&#xa;DefaultMutableTreeNode neto11 = new DefaultMutableTreeNode(&quot;Sair&quot;);&#xa;filho1.add(neto11);&#xa;&#xa;&#xa;&#xa;DefaultMutableTreeNode filho2 = new DefaultMutableTreeNode(&quot;Movimento&quot;);&#xa;pai.add(filho2);&#xa;&#xa;DefaultMutableTreeNode neto12 = new DefaultMutableTreeNode(&quot;Contas a Pagar&quot;);&#xa;filho2.add(neto12);&#xa;&#xa;DefaultMutableTreeNode neto13 = new DefaultMutableTreeNode(&quot;Contas a Receber&quot;);&#xa;filho2.add(neto13);&#xa;&#xa;DefaultMutableTreeNode neto14 = new DefaultMutableTreeNode(&quot;Vendas&quot;);&#xa;filho2.add(neto14);&#xa;&#xa;DefaultMutableTreeNode neto15 = new DefaultMutableTreeNode(&quot;Or&#xe7;amentos&quot;);&#xa;filho2.add(neto15);&#xa;&#xa;//Sub-Menu de Movimento&#xa;DefaultMutableTreeNode neto16 = new DefaultMutableTreeNode(&quot;Controle de Estoque&quot;);&#xa;filho2.add(neto16);&#xa;//Sub-menu de Controle de Estoque&#xa;DefaultMutableTreeNode bisnetodeEstoque = new DefaultMutableTreeNode(&quot;Entrada de NF&quot;);&#xa;neto16.add(bisnetodeEstoque);&#xa;//Sub-menu de Controle de Estoque&#xa;DefaultMutableTreeNode bisnetodeEstoque2 = new DefaultMutableTreeNode(&quot;Atualiza&#xe7;&#xe3;o de Pre&#xe7;os&quot;);&#xa;neto16.add(bisnetodeEstoque2);&#xa;&#xa;//Sub-Menu de Movimento&#xa;DefaultMutableTreeNode neto17 = new DefaultMutableTreeNode(&quot;Compras&quot;);&#xa;filho2.add(neto17);&#xa;//Sub-menu de Compras&#xa;DefaultMutableTreeNode bisnetodeCompras = new DefaultMutableTreeNode(&quot;Requisi&#xe7;&#xe3;o&quot;);&#xa;neto17.add(bisnetodeCompras);&#xa;//Sub-menu de Compras&#xa;DefaultMutableTreeNode bisnetodeCompras2 = new DefaultMutableTreeNode(&quot;Cota&#xe7;&#xe3;o&quot;);&#xa;neto17.add(bisnetodeCompras2);&#xa;//Sub-menu de Compras&#xa;DefaultMutableTreeNode bisnetodeCompras3 = new DefaultMutableTreeNode(&quot;Confirma Cota&#xe7;&#xe3;o&quot;);&#xa;neto17.add(bisnetodeCompras3);&#xa;//Sub-menu de Compras&#xa;DefaultMutableTreeNode bisnetodeCompras4 = new DefaultMutableTreeNode(&quot;Pedido&quot;);&#xa;neto17.add(bisnetodeCompras4);&#xa;&#xa;&#xa;&#xa;//Sub-Menu de Movimento&#xa;DefaultMutableTreeNode neto18 = new DefaultMutableTreeNode(&quot;Tesouraria e Banco&quot;);&#xa;filho2.add(neto18);&#xa;//Sub-menu de Tesouraria e Banco&#xa;DefaultMutableTreeNode bisnetodeTesourariaBanco = new DefaultMutableTreeNode(&quot;Emiss&#xe3;o de Cheques&quot;);&#xa;neto18.add(bisnetodeTesourariaBanco);&#xa;//Sub-menu de Tesouraria e Banco&#xa;DefaultMutableTreeNode bisnetodeTesourariaBanco2 = new DefaultMutableTreeNode(&quot;Concilia&#xe7;&#xe3;o de Cheques&quot;);&#xa;neto18.add(bisnetodeTesourariaBanco2);&#xa;//Sub-menu de Tesouraria e Banco&#xa;DefaultMutableTreeNode bisnetodeTesourariaBanco3 = new DefaultMutableTreeNode(&quot;Movimento de Banco&quot;);&#xa;neto18.add(bisnetodeTesourariaBanco3);&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;DefaultMutableTreeNode filho3 = new DefaultMutableTreeNode(&quot;Utilit&#xe1;rios&quot;);&#xa;pai.add(filho3);&#xa;&#xa;DefaultMutableTreeNode neto19 = new DefaultMutableTreeNode(&quot;Calculadora&quot;);&#xa;filho3.add(neto19);&#xa;&#xa;DefaultMutableTreeNode neto20 = new DefaultMutableTreeNode(&quot;Calend&#xe1;rio&quot;);&#xa;filho3.add(neto20);&#xa;&#xa;//Sub-Menu de Utilit&#xe1;rios&#xa;DefaultMutableTreeNode neto21 = new DefaultMutableTreeNode(&quot;Sistema de Seguran&#xe7;a&quot;);&#xa;filho3.add(neto21);&#xa;//Sub-menu de Sistema de Seguran&#xe7;a&#xa;DefaultMutableTreeNode bisnetodeSistemaSeguran&#xe7;a = new DefaultMutableTreeNode(&quot;Definir N&#xed;vel de Acesso&quot;);&#xa;neto21.add(bisnetodeSistemaSeguran&#xe7;a);&#xa;//Sub-menu de Sistema de Seguran&#xe7;a&#xa;DefaultMutableTreeNode bisnetodeSistemaSeguran&#xe7;a2 = new DefaultMutableTreeNode(&quot;Trocar Senha Corrente&quot;);&#xa;neto21.add(bisnetodeSistemaSeguran&#xe7;a2);&#xa;&#xa;&#xa;DefaultMutableTreeNode filho4 = new DefaultMutableTreeNode(&quot;Ajuda&quot;);&#xa;pai.add(filho4);&#xa;&#xa;DefaultMutableTreeNode neto22 = new DefaultMutableTreeNode(&quot;Conte&#xfa;do&quot;);&#xa;filho4.add(neto22);&#xa;&#xa;DefaultMutableTreeNode neto23 = new DefaultMutableTreeNode(&quot;Sobre o Sistema&quot;);&#xa;filho4.add(neto23);"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Conceder"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Retirar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fechar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Funcion&#xe1;rio"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" alignment="0" min="-2" pref="358" max="-2" attributes="1"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="50" resizable="false">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="elements" source="funcionarioList" target="jTable1" targetPath="elements" updateStrategy="0" immediately="true">
+                      <Subbinding sourcePath="${codFuncionario}">
+                        <BindingParameter name="NAME" value="Cod Funcionario"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${nomeFuncionario}">
+                        <BindingParameter name="NAME" value="Nome Funcionario"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${loginFuncionario}">
+                        <BindingParameter name="NAME" value="Login Funcionario"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Nivel de Acesso"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="255" max="-2" attributes="1"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable2">
+                  <Properties>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="elements" source="nivelAcessoList" target="jTable2" targetPath="elements" updateStrategy="0" immediately="true">
+                      <Subbinding sourcePath="${codFunc}">
+                        <BindingParameter name="NAME" value="Cod Func"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${nomeModulo}">
+                        <BindingParameter name="NAME" value="Nome Modulo"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                      </Subbinding>
+                    </BindingProperty>
+                    <BindingProperty name="selectedElements" source="jTable1" sourcePath="${selectedElement.codFuncionario}" target="jTable2" targetPath="selectedElements" updateStrategy="0" immediately="false">
+                      <BindingParameter name="IGNORE_ADJUSTING" value="N"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
