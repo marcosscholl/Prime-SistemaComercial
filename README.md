@@ -192,20 +192,20 @@ O Menu Geral é dividido nos seguintes menus e sub-menus:
 
 *Imagens de Atalho e seus Significados:*
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\users4\_add444.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image013.jpg?raw=true)**= Cadastrar um Novo Cliente;**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image013.jpg?raw=true)**= Cadastrar um Novo Cliente;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\produtos\_add.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image015.jpg?raw=true) **= Cadastrar um novo Produto;**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image015.jpg?raw=true) **= Cadastrar um novo Produto;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\Orcamento\_Red\_.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image017.jpg?raw=true) **= Realizar Orçamento;**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image017.jpg?raw=true) **= Realizar Orçamento;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\Venda\_2.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image019.jpg?raw=true) **= Iniciar Frente de Caixa;**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image019.jpg?raw=true) **= Iniciar Frente de Caixa;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\fornecedor\_12\_.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image021.jpg?raw=true) **= Consultar / Cadastrar um
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image021.jpg?raw=true) **= Consultar / Cadastrar um
 Fornecedor;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\calculadora\_12.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image023.jpg?raw=true) **= Abrir Calculadora;**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image023.jpg?raw=true) **= Abrir Calculadora;**
 
-![C:\\Users\\Scholl\\Desktop\\imagens\\exit\_3.jpg?raw=true](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image025.jpg?raw=true)**= Sair.**
+![](https://github.com/marcosscholl/Prime-SistemaComercial/blob/master/media/image025.jpg?raw=true)**= Sair.**
 
  *MENU CADASTRO:*
 -----------------
